@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_gFjwgH1UEeyCUqZtTCM_YA" name="Chain">
+    <eAnnotations xmi:id="_gxSOEH1UEeyCUqZtTCM_YA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_gxS1IH1UEeyCUqZtTCM_YA" source="codegen">
+        <details xmi:id="_gxS1IX1UEeyCUqZtTCM_YA" key="codegenDirectory" value="/Chain/src"/>
+        <details xmi:id="_hdM44H1UEeyCUqZtTCM_YA" key="AssociatedSourceCode" value="/Chain/src/designpatterns/cor/Chain.java;2278772436/1;/Chain/src/designpatterns/cor/ChainOfResponsibilityExample.java;3016180886/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_hL5GcH1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5GcX1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5Gcn1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5tgH1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5tgX1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5tgn1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5tg31UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_hL5thH1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_hL6UkH1UEeyCUqZtTCM_YA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hK_ukH1UEeyCUqZtTCM_YA" name="designpatterns">
+      <packagedElement xmi:type="uml:Package" xmi:id="_hLRbYH1UEeyCUqZtTCM_YA" name="cor">
+        <packagedElement xmi:type="uml:Class" xmi:id="_hLxxsH1UEeyCUqZtTCM_YA" name="Chain" isAbstract="true">
+          <ownedAttribute xmi:id="_hPJOwH1UEeyCUqZtTCM_YA" name="One" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hPJ10H1UEeyCUqZtTCM_YA" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hPMSEH1UEeyCUqZtTCM_YA" name="Two" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hPM5IH1UEeyCUqZtTCM_YA" value="2"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hPOHQX1UEeyCUqZtTCM_YA" name="Three" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_hPPVYH1UEeyCUqZtTCM_YA" value="3"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hPQjgH1UEeyCUqZtTCM_YA" name="Threshold" visibility="protected">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_hPSYsH1UEeyCUqZtTCM_YA" name="next" visibility="protected" type="_hLxxsH1UEeyCUqZtTCM_YA" association="_hQmAQH1UEeyCUqZtTCM_YA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQc2UH1UEeyCUqZtTCM_YA" name="setNext" specification="_hPDvMH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hQddYH1UEeyCUqZtTCM_YA" name="chain" type="_hLxxsH1UEeyCUqZtTCM_YA"/>
+            <language>java</language>
+            <body>next = chain;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQddYX1UEeyCUqZtTCM_YA" name="message" specification="_hMY1sH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hQddYn1UEeyCUqZtTCM_YA" name="msg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hQddY31UEeyCUqZtTCM_YA" name="priority">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>//if the priority is less than Threshold it is handled&#xD;
+ 	if (priority &lt;= Threshold) {&#xD;
+         writeMessage(msg);&#xD;
+     }&#xD;
+ &#xD;
+     if (next != null) {&#xD;
+         next.message(msg, priority);&#xD;
+     }&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hMY1sH1UEeyCUqZtTCM_YA" name="message" method="_hQddYX1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hMY1sX1UEeyCUqZtTCM_YA" name="msg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_hMY1sn1UEeyCUqZtTCM_YA" name="priority">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hMgxgH1UEeyCUqZtTCM_YA" name="writeMessage" visibility="protected" isAbstract="true">
+            <ownedParameter xmi:id="_hMgxgX1UEeyCUqZtTCM_YA" name="msg">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hPDvMH1UEeyCUqZtTCM_YA" name="setNext" method="_hQc2UH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hPDvMX1UEeyCUqZtTCM_YA" name="chain" type="_hLxxsH1UEeyCUqZtTCM_YA"/>
+          </ownedOperation>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_hL3RQH1UEeyCUqZtTCM_YA" name="A" visibility="package">
+            <eAnnotations xmi:id="_hL34UH1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hL34UX1UEeyCUqZtTCM_YA" key="sameFile"/>
+            </eAnnotations>
+            <generalization xmi:id="_hPAE0H1UEeyCUqZtTCM_YA" general="_hLxxsH1UEeyCUqZtTCM_YA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQFC4H1UEeyCUqZtTCM_YA" name="A" specification="_hL7isH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQFC4X1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQFC4n1UEeyCUqZtTCM_YA" type="_hL3RQH1UEeyCUqZtTCM_YA" direction="return"/>
+              <language>java</language>
+              <body>this.Threshold = threshold;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQZzAH1UEeyCUqZtTCM_YA" name="writeMessage" specification="_hMHv8H1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQZzAX1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;A: &quot; + msg);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hL7isH1UEeyCUqZtTCM_YA" name="A" method="_hQFC4H1UEeyCUqZtTCM_YA">
+              <eAnnotations xmi:id="_hMF6wH1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hMF6wX1UEeyCUqZtTCM_YA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_hL7isX1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hMGh0H1UEeyCUqZtTCM_YA" type="_hL3RQH1UEeyCUqZtTCM_YA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hMHv8H1UEeyCUqZtTCM_YA" name="writeMessage" visibility="protected" method="_hQZzAH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hMHv8X1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_hMKzQH1UEeyCUqZtTCM_YA" name="B" visibility="package">
+            <eAnnotations xmi:id="_hMKzQX1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hMKzQn1UEeyCUqZtTCM_YA" key="sameFile"/>
+            </eAnnotations>
+            <generalization xmi:id="_hPBS8H1UEeyCUqZtTCM_YA" general="_hLxxsH1UEeyCUqZtTCM_YA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQaaEH1UEeyCUqZtTCM_YA" name="B" specification="_hMMBYH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQaaEX1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQaaEn1UEeyCUqZtTCM_YA" type="_hMKzQH1UEeyCUqZtTCM_YA" direction="return"/>
+              <language>java</language>
+              <body>this.Threshold = threshold;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQbBIH1UEeyCUqZtTCM_YA" name="writeMessage" specification="_hMN2kH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQbBIX1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;B: &quot; + msg);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hMMBYH1UEeyCUqZtTCM_YA" name="B" method="_hQaaEH1UEeyCUqZtTCM_YA">
+              <eAnnotations xmi:id="_hMMocX1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hMNPgH1UEeyCUqZtTCM_YA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_hMMocH1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hMNPgX1UEeyCUqZtTCM_YA" type="_hMKzQH1UEeyCUqZtTCM_YA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hMN2kH1UEeyCUqZtTCM_YA" name="writeMessage" visibility="protected" method="_hQbBIH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hMOdoH1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_hMQS0H1UEeyCUqZtTCM_YA" name="C" visibility="package">
+            <eAnnotations xmi:id="_hMQS0X1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_hMQS0n1UEeyCUqZtTCM_YA" key="sameFile"/>
+            </eAnnotations>
+            <generalization xmi:id="_hPB6AH1UEeyCUqZtTCM_YA" general="_hLxxsH1UEeyCUqZtTCM_YA"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQboMH1UEeyCUqZtTCM_YA" name="C" specification="_hMSIAH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQboMX1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hQboMn1UEeyCUqZtTCM_YA" type="_hMQS0H1UEeyCUqZtTCM_YA" direction="return"/>
+              <language>java</language>
+              <body>this.Threshold = threshold;&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQcPQH1UEeyCUqZtTCM_YA" name="writeMessage" specification="_hMT9MH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hQcPQX1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;C: &quot; + msg);&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_hMSIAH1UEeyCUqZtTCM_YA" name="C" method="_hQboMH1UEeyCUqZtTCM_YA">
+              <eAnnotations xmi:id="_hMSvEH1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_hMSvEX1UEeyCUqZtTCM_YA" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_hMSIAX1UEeyCUqZtTCM_YA" name="threshold">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_hMSvEn1UEeyCUqZtTCM_YA" type="_hMQS0H1UEeyCUqZtTCM_YA" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_hMT9MH1UEeyCUqZtTCM_YA" name="writeMessage" visibility="protected" method="_hQcPQH1UEeyCUqZtTCM_YA">
+              <ownedParameter xmi:id="_hMT9MX1UEeyCUqZtTCM_YA" name="msg">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </nestedClassifier>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hM0TgH1UEeyCUqZtTCM_YA" name="ChainOfResponsibilityExample">
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQergH1UEeyCUqZtTCM_YA" name="createChain" specification="_hM06kH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hQergX1UEeyCUqZtTCM_YA" type="_hLxxsH1UEeyCUqZtTCM_YA" direction="return"/>
+            <language>java</language>
+            <body>// Build the chain of responsibility&#xD;
+ 	Chain chain1 = new A(Chain.Three);&#xD;
+ 	Chain chain2 = new B(Chain.Two);&#xD;
+ 	chain1.setNext(chain2);&#xD;
+     Chain chain3 = new C(Chain.One);        &#xD;
+     chain2.setNext(chain3);&#xD;
+     return chain1;&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_hQf5oH1UEeyCUqZtTCM_YA" name="main" specification="_hM5zEH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hQf5oX1UEeyCUqZtTCM_YA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hQf5on1UEeyCUqZtTCM_YA" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>Chain chain = createChain(); &#xD;
+     chain.message(&quot;level 3&quot;, Chain.Three);&#xD;
+     chain.message(&quot;level 2&quot;, Chain.Two);&#xD;
+     chain.message(&quot;level 1&quot;, Chain.One);&#xD;
+ </body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_hM06kH1UEeyCUqZtTCM_YA" name="createChain" visibility="private" isStatic="true" method="_hQergH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hPGygH1UEeyCUqZtTCM_YA" type="_hLxxsH1UEeyCUqZtTCM_YA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_hM5zEH1UEeyCUqZtTCM_YA" name="main" isStatic="true" method="_hQf5oH1UEeyCUqZtTCM_YA">
+            <ownedParameter xmi:id="_hM5zEX1UEeyCUqZtTCM_YA" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hM6aIH1UEeyCUqZtTCM_YA" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_hQmAQH1UEeyCUqZtTCM_YA" name="" memberEnd="_hQmAQX1UEeyCUqZtTCM_YA _hPSYsH1UEeyCUqZtTCM_YA">
+          <ownedEnd xmi:id="_hQmAQX1UEeyCUqZtTCM_YA" name="" type="_hLxxsH1UEeyCUqZtTCM_YA" association="_hQmAQH1UEeyCUqZtTCM_YA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_gxb_EH1UEeyCUqZtTCM_YA">
+      <eAnnotations xmi:id="_gxsdwH1UEeyCUqZtTCM_YA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_gyo48H1UEeyCUqZtTCM_YA" base_Package="_gFjwgH1UEeyCUqZtTCM_YA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hMh_oH1UEeyCUqZtTCM_YA" base_Element="_hMgxgH1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hPLrAH1UEeyCUqZtTCM_YA" base_Element="_hPJOwH1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hPOHQH1UEeyCUqZtTCM_YA" base_Element="_hPMSEH1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hPP8cH1UEeyCUqZtTCM_YA" base_Element="_hPOHQX1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hPRxoH1UEeyCUqZtTCM_YA" base_Element="_hPQjgH1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_hPTm0H1UEeyCUqZtTCM_YA" base_Element="_hPSYsH1UEeyCUqZtTCM_YA"/>
+  <UMLLabProfile:Reference xmi:id="_hQocgH1UEeyCUqZtTCM_YA" base_Element="_hQmAQH1UEeyCUqZtTCM_YA"/>
+</xmi:XMI>
